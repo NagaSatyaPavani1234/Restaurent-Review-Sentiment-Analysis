@@ -1,4 +1,4 @@
-#Restaurant Review Sentiment Analysis using NLP
+# Restaurant Review Sentiment Analysis using NLP
 
 ## Overview
 
@@ -74,19 +74,18 @@ The sentiment results are visualized using:
 
 ## Project Workflow
 
-```text
-Restaurant Reviews
-        ↓
-Data Loading
-        ↓
-Data Cleaning
-        ↓
-Text Preprocessing
-        ↓
-Sentiment Polarity
-        ↓
-Sentiment Classification
-        ↓
+Restaurant Reviews  
+↓  
+Data Loading  
+↓  
+Data Cleaning  
+↓  
+Text Preprocessing  
+↓  
+Sentiment Polarity  
+↓  
+Sentiment Classification  
+↓  
 Data Visualization
 
 ## Visualizations
@@ -98,30 +97,32 @@ The project includes visualizations for:
 
 ## Project Files
 
-```text
-Restaurant-Review-Sentiment-Analysis/
-│
-├── Restaurant_Review_Sentiment_Analysis.ipynb
-├── restaurant_reviews.csv
-└── README.md
-File Description
-Restaurant_Review_Sentiment_Analysis.ipynb
-Contains the complete Python implementation and analysis.
-restaurant_reviews.csv
-Contains the restaurant customer review dataset.
+- `Restaurant_Review_Sentiment_Analysis.ipynb` — Complete Python implementation and analysis
+- `restaurant_reviews.csv` — Restaurant customer review dataset
+- `README.md` — Project documentation
 
-How to Run
-Google Colab
-Open Restaurant_Review_Sentiment_Analysis.ipynb in Google Colab.
-Upload restaurant_reviews.csv when required.
-Run the notebook cells sequentially.
-Jupyter Notebook
-Clone or download this repository.
-Keep the notebook and dataset in the same directory.
-Install the required libraries:
-pip install pandas nltk textblob matplotlib jupyter
-Open the notebook using Jupyter Notebook or JupyterLab.
-Run the cells sequentially.
-Conclusion
+## How to Run
+
+### Google Colab
+
+1. Open `Restaurant_Review_Sentiment_Analysis.ipynb` in Google Colab.
+2. Upload `restaurant_reviews.csv` when required.
+3. Run the notebook cells sequentially.
+
+### Jupyter Notebook
+
+1. Clone or download this repository.
+2. Keep the notebook and dataset in the same directory.
+3. Install the required libraries:
+
+`pip install pandas nltk textblob matplotlib jupyter`
+
+4. Open the notebook using Jupyter Notebook or JupyterLab.
+5. Run the cells sequentially.
+
+## Conclusion
+
 This project demonstrates the application of Natural Language Processing for restaurant review sentiment analysis. Text preprocessing and sentiment polarity analysis are used to classify customer reviews and visualize the resulting sentiment distribution.
+
 The analysis shows how NLP can be applied to understand customer feedback and support decision-making.
+```1
