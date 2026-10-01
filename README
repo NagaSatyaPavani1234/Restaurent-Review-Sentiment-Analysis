@@ -1,5 +1,71 @@
-# Restaurant Review Sentiment Analysis using NLP
+# 🍽️ Restaurant Review Sentiment Analysis using NLP
 
-## Overview
+A Natural Language Processing (NLP) project that analyzes customer restaurant reviews and classifies them into **Positive, Negative, and Neutral** sentiment categories.
 
-This project analyzes restaurant customer reviews using Natural Language Processing (NLP) techniques.
+The project uses text preprocessing and sentiment polarity analysis to understand customer opinions and identify overall satisfaction from restaurant reviews.
+
+## 🎯 Aim
+
+The aim of this project is to perform sentiment analysis on restaurant reviews using Natural Language Processing (NLP) techniques.
+
+The system classifies customer reviews into:
+- 😊 Positive
+- 😐 Neutral
+- 😞 Negative
+
+## 📊 Dataset
+
+The dataset used in this project is `restaurant_reviews.csv`.
+
+It contains textual reviews provided by customers about their restaurant experiences. The dataset was checked for missing values and duplicate records before processing.
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NLTK
+- TextBlob
+- Matplotlib
+- Jupyter Notebook / Google Colab
+
+## 🔄 Methodology
+
+1. Imported the required Python libraries.
+2. Loaded the restaurant review dataset using Pandas.
+3. Checked and cleaned the dataset.
+4. Removed duplicate records and unnecessary characters.
+5. Converted review text into lowercase.
+6. Removed stopwords using NLP preprocessing.
+7. Calculated sentiment polarity using TextBlob.
+8. Classified reviews as Positive, Negative, or Neutral.
+9. Visualized the sentiment distribution.
+
+## 📈 Visualizations
+
+The project includes:
+
+### Sentiment Distribution Bar Chart
+Shows the number of Positive, Negative, and Neutral reviews.
+
+### Sentiment Score Histogram
+Shows the distribution of polarity scores across the restaurant reviews.
+
+## 🔍 Results
+
+The analysis showed that:
+
+- Most reviews were **Positive**, indicating generally good customer satisfaction.
+- Some reviews were **Neutral**, representing mixed or moderate experiences.
+- A smaller number of reviews were **Negative**, highlighting areas where customer experience could be improved.
+
+## 💡 Conclusion
+
+Restaurant Review Sentiment Analysis was successfully performed using NLP techniques.
+
+Text preprocessing and sentiment polarity analysis helped classify customer reviews effectively. This project demonstrates how NLP can be used to analyze customer feedback and support data-driven decision making.
+
+## 👩‍💻 Author
+
+**Tadavarthi Naga Satya Pavani**
+
+CSE — RGUKT Nuzvid
