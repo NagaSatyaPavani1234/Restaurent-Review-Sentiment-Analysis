@@ -1,1 +1,127 @@
-# Restaurent Review Sentiment Analysis
+# Restaurant Review Sentiment Analysis using NLP
+
+## Overview
+
+This project analyzes restaurant customer reviews using Natural Language Processing (NLP) techniques. The reviews are processed and classified into three sentiment categories:
+
+- Positive
+- Negative
+- Neutral
+
+The project demonstrates how NLP can be used to understand customer feedback and identify sentiment from textual reviews.
+
+## Objective
+
+The objective of this project is to:
+
+- Process restaurant customer reviews
+- Clean and preprocess textual data
+- Calculate sentiment polarity
+- Classify reviews into Positive, Negative, and Neutral categories
+- Visualize the sentiment distribution
+
+## Dataset
+
+The dataset `restaurant_reviews.csv` contains customer reviews describing their restaurant experiences.
+
+The dataset was checked for missing values and duplicate records.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NLTK
+- TextBlob
+- Matplotlib
+- Google Colab
+- Jupyter Notebook
+
+## Methodology
+
+### 1. Import Required Libraries
+
+The required Python libraries such as Pandas, NLTK, TextBlob, and Matplotlib are imported.
+
+### 2. Load the Dataset
+
+The restaurant review dataset is loaded using Pandas.
+
+### 3. Text Preprocessing
+
+The review text is cleaned by:
+
+- Removing duplicate records
+- Removing unnecessary characters
+- Converting text to lowercase
+- Removing stopwords
+
+### 4. Sentiment Analysis
+
+TextBlob is used to calculate the polarity of each review.
+
+Based on the polarity score, reviews are classified as:
+
+- Positive
+- Negative
+- Neutral
+
+### 5. Data Visualization
+
+The sentiment results are visualized using:
+
+- Sentiment Distribution Bar Chart
+- Sentiment Score Histogram
+
+## Project Workflow
+
+```text
+Restaurant Reviews
+        ↓
+Data Loading
+        ↓
+Data Cleaning
+        ↓
+Text Preprocessing
+        ↓
+Sentiment Polarity
+        ↓
+Sentiment Classification
+        ↓
+Data Visualization
+
+## Visualizations
+
+The project includes visualizations for:
+
+- Distribution of Positive, Negative, and Neutral reviews
+- Distribution of sentiment polarity scores
+
+## Project Files
+
+```text
+Restaurant-Review-Sentiment-Analysis/
+│
+├── Restaurant_Review_Sentiment_Analysis.ipynb
+├── restaurant_reviews.csv
+└── README.md
+File Description
+Restaurant_Review_Sentiment_Analysis.ipynb
+Contains the complete Python implementation and analysis.
+restaurant_reviews.csv
+Contains the restaurant customer review dataset.
+
+How to Run
+Google Colab
+Open Restaurant_Review_Sentiment_Analysis.ipynb in Google Colab.
+Upload restaurant_reviews.csv when required.
+Run the notebook cells sequentially.
+Jupyter Notebook
+Clone or download this repository.
+Keep the notebook and dataset in the same directory.
+Install the required libraries:
+pip install pandas nltk textblob matplotlib jupyter
+Open the notebook using Jupyter Notebook or JupyterLab.
+Run the cells sequentially.
+Conclusion
+This project demonstrates the application of Natural Language Processing for restaurant review sentiment analysis. Text preprocessing and sentiment polarity analysis are used to classify customer reviews and visualize the resulting sentiment distribution.
+The analysis shows how NLP can be applied to understand customer feedback and support decision-making.
